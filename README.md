@@ -11,7 +11,7 @@ Frontend web para gestión colaborativa de proyectos y tareas con Angular 17, Ta
 La aplicación está desplegada en Railway:
 
 ```text
-https://taskflow-pro-frontend-production.up.railway.app
+https://taskflow-pro-frontend-production-5dc3.up.railway.app
 ```
 
 ---
