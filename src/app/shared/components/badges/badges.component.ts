@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TaskItemStatus, TaskPriority, TaskStatusLabel, TaskPriorityLabel } from '../../core/models/task.models';
+import { TaskItemStatus, TaskPriority, TaskStatusLabel, TaskPriorityLabel } from '../../../core/models/task.models';
 
 @Component({
   selector: 'app-status-badge',

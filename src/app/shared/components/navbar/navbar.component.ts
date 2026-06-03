@@ -1,7 +1,7 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { AuthService } from '../../core/services/auth.service';
+import { CommonModule } from '@angular/common';
+import { AuthService } from '../../../core/services/auth.service';
 
 @Component({
   selector: 'app-navbar',
@@ -25,7 +25,7 @@ import { AuthService } from '../../core/services/auth.service';
   `
 })
 export class NavbarComponent {
-  constructor(private auth: AuthService) {}
   user = this.auth.currentUser;
+  constructor(private auth: AuthService) {}
   logout() { this.auth.logout(); }
 }
